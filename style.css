@@ -1,0 +1,85 @@
+.navbar,
+footer {
+  font-size: 20px;
+  background-color: #663399 !important;
+}
+
+.navbar a {
+  color: #ffffff !important;
+}
+
+
+.card-title_prime {
+  text-align: center;
+  margin: 65px auto;
+  font-size: 25px;
+}
+
+.container-principal {
+  display: flex;
+  justify-content: center;
+  margin: 90px auto;
+}
+
+.container-fluid {
+  width: auto;
+}
+
+.card {
+  margin: 10px auto;
+}
+
+.btn {
+  background-color: #663399;
+  border-style: none;
+}
+
+.btn:hover {
+  background-color: #6a1bb8d5;
+}
+
+.section_2 {
+  display: flex;
+  justify-content: center;
+
+}
+
+section h2 {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.section_3 {
+  margin: 50px 0 50px 0;
+  text-align: center;
+}
+
+footer {
+  color: #ffffff;
+  text-align: center;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (max-width: 900px) {
+  .container-principal {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section_2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .container-fluid {
+    margin: 40px auto;
+  }
+
+  .navbar-toggler{
+    border: #fff solid;
+  }
+}
